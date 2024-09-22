@@ -1,0 +1,19 @@
+.server-started-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #33cc33; /* green color */
+    background-color: #f2f2f2; /* light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.server-started-text {
+    font-weight: bold;
+    text-shadow: 0 0 5px #ffffff; /* white text shadow */
+}
