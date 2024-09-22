@@ -35,4 +35,7 @@ public String deleteWithId(@PathVariable("id") int userId,@RequestBody User user
 public String throwException() {
     throw new CustomException("This is a custom exception message!");
 }
+
+
+
 }
