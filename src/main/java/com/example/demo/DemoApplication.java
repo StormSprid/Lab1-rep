@@ -12,8 +12,5 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @GetMapping("/custom-input")
-    public String customInput() {
-        return "custom-input";
-    }
+
 }
